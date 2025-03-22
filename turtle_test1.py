@@ -37,7 +37,7 @@ def example4():
     for i in range(180):
         t.forward(i)
         t.color(colors[i%4])
-        t.left(89)
+        t.left(91)
 
 # playing with each parameter
 # change the range
