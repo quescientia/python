@@ -86,7 +86,14 @@ def example7():
         t.forward(i)
         t.left(-179)
 
+# from documentation
+def example8():
+    for steps in range(200):
+        t.color(colors[steps%8])
+        t.forward(steps/4)
+        t.right(45)
 
-example7()
+
+example8()
 
 t.screen.mainloop()
